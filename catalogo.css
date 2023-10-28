@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    border-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #F7FBFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 2px solid #08306B;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: #08306B;
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+
+}
+
+.nav ul li {
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 65px;
+}
+
+.nav img {
+    padding-left: 65px;
+}
+
+.nav a {
+    font-size: 22px;
+    line-height: 84px;
+    color: #08306B;
+}
+
+
+.categoria {
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.categoria button {
+    font-size: 19px;
+    height: 100%;
+    cursor: pointer;
+}
+.categoria button:hover {
+color: white;
+background-color: #08306B;
+}
+.perrotta{
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;  
+}
+.sdctph{
+    background-color: white;
+    color: #002445;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.ctwspph{
+    background-color: white;
+    color: #002445;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pp{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/pp.png);
+    background-size: cover;
+    background-position: top; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    justify-content: center;
+}
+.pph2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 35px;
+    }
+    .btndiv2 {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 30%;
+   
+    }
+.he{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/he.png);
+    background-size: cover;
+    background-position: top; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+    justify-content: center;
+
+}
+.heh2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 35px;
+   
+}
+
+.bremenypalla {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;  
+}
+.bremen{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/bremen.png);
+    background-size: cover;
+    background-position: top; 
+}
+.btndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 30%;
+   padding-top: 350px;
+   
+}
+.dsct{
+    background-color: white;
+    color: #002445;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctwsp{
+    background-color: white;
+    color: #002445;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.palla{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/palladinofondo.png);
+    background-size: cover;
+    background-position: top;  
+}
+.dsctp {
+    background-color: white;
+    color: #CF0A01;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctwspp {
+    background-color: white;
+    color: #CF0A01;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.lusqyrucci {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;  
+    
+} 
+.lusqtoff {
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/LQ.png);
+    background-size: cover;
+    background-position: top;
+}
+.dsctl{
+    background-color: white;
+    color: #FB7F04;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.ctwl{
+    background-color: white;
+    color: #FB7F04;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.rucci{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/rucci-1.png);  
+    background-size: cover;
+    background-position: top;
+    
+    overflow: hidden;
+    
+}
+.dsctr{
+    background-color: white;
+    color: #7FC105;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.ctwr {
+    background-color: white;
+    color: #7FC105;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.ruhlyhamilton {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;  
+}
+.ruhlman {
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/ruhlman.png);
+    background-size: cover;
+    background-position: top;
+}
+.dcru {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamilton {
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/hamilton.png);
+    background-size: cover;
+    background-position: top;
+}
+.betaygd {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;  
+}
+.beta{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/BETA.png);
+    background-size: cover;
+    background-position: top;
+}
+.dcbt {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gd{
+    width: 50%;
+    height: 100%;
+    background-image: url(/imagenes/GD.png);
+    background-size: cover;
+    background-position: top;
+}
+.dcgd {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 190px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+
+
+
+
+footer {
+    background-color: #F7FBFF;
+    width: 100%;
+    color: #08306B;
+    border-top: 2px solid #08306B;
+
+}
+
+
+.footerhijo {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 70%;
+
+}
+
+.box {
+    text-align: center;
+    
+}
+
+
+.box h2 {
+    margin-bottom: 5px;
+}
+.box figure {
+    transition: transform 0.3s ease-in-out;
+}
+.redes {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.redes a {
+    color: #08306B;
+    font-size: 37px;
+    transition: transform 0.3s ease-in-out;
+
+
+
+}
+
+.redesig:hover{
+
+  color:   #fd5949;
+  transform: scale(1.2);
+  
+}
+.redesgmail:hover{
+    color: #E34133;
+    transform: scale(1.2);
+}
+.box figure:hover {
+    transform: scale(1.1);
+
+}
+

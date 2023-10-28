@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #F7FBFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 2px solid #08306B;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: #08306B;
+    width: 100%;
+    height: 100%;
+}
+
+.nav ul {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+
+}
+
+.nav ul li {
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 65px;
+}
+
+.nav img {
+    padding-left: 65px;
+}
+
+.nav a {
+    font-size: 22px;
+    
+    line-height: 84px;
+    color: #08306B;
+}
+
+
+.article1 {
+    width: 100%;
+    height: calc(100vh - 65 px);
+    padding-top: 75px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+}
+.article1 h2{
+    width: 75%;
+}
+.article1 h1 {
+    width: 100%;
+    font-size: 32px;
+    color: #08306B;
+    
+}
+
+
+
+
+
+
+footer {
+    background-color: #F7FBFF;
+    width: 100%;
+    color: #08306B;
+    border-top: 2px solid #08306B;
+
+}
+
+
+.footerhijo {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+figure img {
+    width: 70%;
+
+}
+
+.box {
+    text-align: center;
+    
+}
+
+
+.box h2 {
+    margin-bottom: 5px;
+}
+.box figure {
+    transition: transform 0.3s ease-in-out;
+}
+.redes {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.redes a {
+    color: #08306B;
+    font-size: 37px;
+    transition: transform 0.3s ease-in-out;
+
+
+
+}
+
+.redesig:hover{
+
+  color:   #fd5949;
+  transform: scale(1.2);
+  
+}
+.redesgmail:hover{
+    color: #E34133;
+    transform: scale(1.2);
+}
+.box figure:hover {
+    transform: scale(1.1);
+
+}
